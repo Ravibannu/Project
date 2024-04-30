@@ -1,0 +1,25 @@
+.section2{
+            width: auto;
+            height: 200px;
+            border: 1px solid black;
+        }
+        .section3{
+            width: auto;
+            height: 200px;
+            border: 1px solid black;
+        }
+        .section4{
+            width: auto;
+            height: 200px;
+            border: 1px solid black;
+        }
+        .section5{
+            width: auto;
+            height: 200px;
+            border: 1px solid black;
+        }
+        .footor{
+            width: auto;
+            height: 20px;
+            border: 1px solid black;
+        }

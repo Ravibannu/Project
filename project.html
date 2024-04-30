@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .nav{
+            padding: 20px;
+            width: auto;
+            height: 70px;
+            
+            display: flex;
+            justify-content: space-between;
+
+
+        }
+        
+        .nav1{
+        
+            display: flex;
+            padding: 30px;
+            width: 600px;
+            justify-content: space-between;
+        }
+        .nav2 :hover{
+            background-color: lightblue;
+            border: 1px solid lightblue;
+            border-radius: 50px;
+            padding: 10px;
+        }
+        
+        a{
+            text-decoration: none;
+            font-size: 20px;
+            color: white;
+        }
+        .header{
+            width: auto;
+            height: 700px;
+            border: 1px solid black;
+            background-image: url(./banner-bg.jpg);
+            background-size: cover;
+            border-bottom-left-radius: 80px;
+            border-bottom-right-radius: 80px;
+        }
+        .banner{
+            
+            margin-top: -450px;
+            margin-left: 800px;
+        }
+        .discount{
+            background-color: red;
+            border: 1px solid red;
+            border-radius: 100px;
+            display: inline-block;
+            margin-left: 800px;
+            
+            position: relative;
+            top: -20px;
+            right: 20px;
+            
+
+        }
+        .rate{
+            color: white;
+            
+            
+            display: inline-block;
+            margin-left: 800px;
+           padding: 1px;
+            position: relative;
+            top: -280px;
+            left: 250px;
+           
+            
+
+        }
+        .section1{
+           
+            margin-top: -140px;
+            
+            display:flex;
+            justify-content: space-around;
+            
+        }
+        .free{
+            
+            padding: 40px;
+            background-color: white;
+            border-radius: 50px;
+            margin: 50px;
+            padding-left: 60px;
+            box-shadow:black;
+
+        }
+        .user{
+            
+            
+            padding: 40px;
+            background-color: white;
+            border-radius: 50px;
+            margin: 50px;
+            padding-left: 60px;
+
+        }
+        .reply{
+           
+            padding: 40px;
+            background-color: white;
+            border-radius: 50px;
+            margin: 50px;
+            padding-left: 60px;
+
+        }
+        .easy{
+            
+            padding: 40px;
+            background-color: white;
+            border-radius: 50px;
+            margin: 50px;
+            padding-left: 60px;
+
+        }
+
+        .section3{
+            margin: 10px;
+            display: flex;
+            justify-content: space-around;
+            
+        }
+        
+
+        #first{
+            height: 350px;
+            background-color: aliceblue;
+            border-radius: 50px;
+            margin: 10px;
+
+        }
+        #second{
+            height: 350px;
+            background-color: aliceblue;
+            border-radius: 50px;
+            margin: 10px;
+            
+
+        }
+
+        #third{
+            height: 350px;
+            background-color: aliceblue;
+            border-radius: 50px;
+            margin: 10px;
+            
+
+        }
+
+        #forth{
+            height: 350px;
+            background-color: aliceblue;
+            border-radius: 50px;
+            margin: 10px;
+            
+            
+
+        }
+        
+        
+        .section4{
+            border-bottom-left-radius: 50px;
+            border-bottom-right-radius: 50px;
+            width: auto;
+            display:flex;
+            justify-content: space-around;
+            background-color: whitesmoke;
+            
+            
+        }
+
+        #five{
+            height: 350px;
+            background-color: aliceblue;
+            border-radius: 50px;
+            
+
+        }
+        #six{
+            height: 350px;
+            background-color: aliceblue;
+            border-radius: 50px;
+            
+            
+
+        }
+
+        #seven{
+            height: 350px;
+            background-color: aliceblue;
+            border-radius: 50px;
+            
+            
+
+        }
+
+        #eight{
+            height: 350px;
+            background-color: aliceblue;
+            border-radius: 50px;
+           
+            
+            
+
+        }
+
+        .section5{
+            display: flex;
+            justify-content: space-between;
+            margin: 10px;
+            
+        }
+        
+
+        .bgmi{
+            display: flex;
+            justify-content: center;
+            border-radius: 50px;
+
+        }
+        .shop{
+            background-color: aliceblue;
+            width: 250px;
+            padding: 30px;
+            border-radius: 50px;
+            margin-top: -250px;
+            margin-left: 270px;
+            position: relative;
+
+        }
+
+        .bucks{
+            background-color: aliceblue;
+            width: 250px;
+            padding: 30px;
+            border-radius: 50px;
+            margin-top: -350px;
+            margin-left: 730px;
+            position: relative;
+
+        }
+        .footer{
+            background-image: url(./footer-bg.jpg);
+            padding: 50px;
+            display: flex;
+            justify-content: center;
+            border-top-left-radius: 70px;
+            border-top-right-radius: 70px;
+
+        }
+        
+
+
+    </style>
+    
+
+</head>
+<body>
+    
+    <div class="header">
+    
+        <div class="nav">
+            <img src="./logo.png" alt="">
+        <div class="nav1" > 
+            <div class="nav2"><a href="">Home</a></div>
+           <div class="nav2"><a href="">Our shop</a></div>
+           <div class="nav2"><a href="">Product details</a></div>
+           <div class="nav2"><a href="">Contact</a></div>
+           <div class="sign in" ><a href="" style="background-color: rgb(250, 90, 68); padding: 10px; border: 0px solid rgb(107, 36, 36); border-radius: 50px;">Sign in</a></div>
+        </div>
+        </div>
+        <br><br><br><br><br><br>
+        <div style="margin-left: 80px; font-size: larger; color: white;">
+            <div ><h5>WELCOME TO LUGX</h5></div>
+            <div><h1>BEST GAMING SITE EVER!</h1></div>
+        </div>
+        <div style="margin-left: 190px; margin-top: -30px;"><img src="./caption-dec.png" alt=""; width="170px"></div>
+        <div style="margin-left: 80px;"><p style="color: white;">LUGX Gaming is free Bootstrap 5 HTML CSS website template for your gaming websites. <br> You can download and use this layout for commercial purposes. Please tell your friends <br> about TemplateMo.
+            
+        </p></div>
+        <div class="rate"><h3 style="border: 1px solid blue; border-radius: 50px; background-color: blue; padding: 10px;">$22 </h3></div>
+        <div class="discount"><h1>-40%</h1></div>
+        <div class="banner"><img src="./banner-image.jpg" alt="" style="border: 1px solid blue; border-radius: 50px; height: 400px;">
+        </div>
+        
+        </div>
+        
+    </div>
+    
+       
+        <div class="section1">
+            <div class="free" >
+                <div ><img src="./featured-01.png" alt="" style="border-radius: 50px; background-color: blue;"></div>
+            <div><b>Free Storage</b></div></div>
+            <div class="user" >
+                <div ><img src="./featured-02.png" alt="" style=" border-radius: 50px; background-color: blue;"></div>
+            <div><b>User More</b></div></div>
+            <div class="reply" >
+                <div ><img src="./featured-03.png" alt="" style=" border-radius: 50px; background-color: blue;"></div>
+            <div><b>Reply Ready</b></div></div>
+            <div class="easy" >
+                <div ><img src="./featured-04.png" alt="" style="border-radius: 50px; background-color: blue;"></div>
+            <div><b>Easy Layout</b></div>
+        </div>
+        </div>
+
+    
+    <div class="section2">
+        <h4 style="color: red; margin-left: 80px;">Trending</h4>
+        <h1 style="margin-left: 80px; display: inline-block;">Tranding Games</h1>
+        <h5 style="background-color: red; color: white; padding: 10px; border-radius: 50px; float: right; ">VIEW ALL</h5>
+        
+    </div>
+
+    <div class="section3">
+
+        <div id="first"><img src="./trending-01.jpg" alt="" style="border-radius: 50px;">
+            <h5>Action</h5>
+            <h2>Assasin Creed</h2>
+            <div style="background-color: rgb(212, 71, 71); border-radius: 100px; display: inline-block; padding: 5px;  margin-top: -50px; float: inline-end; margin-right: 10px;">
+                <img src="./shopping_bag_FILL0_wght400_GRAD0_opsz24.png" alt="">
+            </div>
+        </div>
+
+        <div id="second"><img src="./trending-02.jpg" alt="" style="border-radius: 50px;">
+            <h5>Action</h5>
+            <h2>Assasin Creed</h2>
+            <div style="background-color: rgb(212, 71, 71); border-radius: 100px; display: inline-block; padding: 5px;  margin-top: -50px; float: inline-end; margin-right: 10px;">
+                <img src="./shopping_bag_FILL0_wght400_GRAD0_opsz24.png" alt="">
+            </div>
+        </div>
+
+        <div id="third"><img src="./trending-03.jpg" alt="" style="border-radius: 50px;">
+            <h5>Action</h5>
+            <h2>Assasin Creed</h2>
+            <div style="background-color: rgb(212, 71, 71); border-radius: 100px; display: inline-block; padding: 5px;  margin-top: -50px; float: inline-end; margin-right: 10px;">
+                <img src="./shopping_bag_FILL0_wght400_GRAD0_opsz24.png" alt="">
+            </div>
+        </div>
+
+        <div id="forth"><img src="./trending-04.jpg" alt="" style="border-radius: 50px;">
+            <h5>Action</h5>
+            <h2>Assasin Creed</h2>
+            <div style="background-color: rgb(212, 71, 71); border-radius: 100px; display: inline-block; padding: 5px;  margin-top: -50px; float: inline-end; margin-right: 10px;">
+                <img src="./shopping_bag_FILL0_wght400_GRAD0_opsz24.png" alt="">
+            </div>
+        </div>
+
+    </div>
+    <br>
+    <br><br><br><br><br><br>
+
+    <div style="background-color: whitesmoke; border-top-left-radius: 50px; border-top-right-radius: 50px;"><h4 style="color: red; margin-left: 80px;">Top Games</h4>
+        <h1 style="margin-left: 80px; display: inline-block;">Most Played</h1>
+        <h5 style="background-color: red; color: white; padding: 10px; border-radius: 50px; float: right; ">VIEW ALL</h5>
+    </div>
+    <div class="section4">
+        
+
+        <div id="first"><img src="./top-game-01.jpg" alt="" style="border-radius: 50px;">
+            <h5>Action</h5>
+            <h2>Assasin Creed</h2>
+            <div style="background-color: rgb(212, 71, 71); border-radius: 100px;  padding: 5px; display: inline-block;  margin-left: 60px;">
+                Explore
+            </div>
+        </div>
+
+        <div id="second"><img src="./top-game-02.jpg" alt="" style="border-radius: 50px;">
+            <h5>Action</h5>
+            <h2>Assasin Creed</h2>
+            <div style="background-color: rgb(212, 71, 71); border-radius: 100px;  padding: 5px; display: inline-block;  margin-left: 60px;">
+                Explore
+            </div>
+        </div>
+
+        <div id="third"><img src="./top-game-03.jpg" alt="" style="border-radius: 50px;">
+            <h5>Action</h5>
+            <h2>Assasin Creed</h2>
+            <div style="background-color: rgb(212, 71, 71); border-radius: 100px;  padding: 5px; display: inline-block;  margin-left: 60px;">
+                Explore
+            </div>
+        </div>
+
+        <div id="forth"><img src="./top-game-04.jpg" alt="" style="border-radius: 50px;">
+            <h5>Action</h5>
+            <h2>Assasin Creed</h2>
+            <div style="background-color: rgb(212, 71, 71); border-radius: 100px;  padding: 5px; display: inline-block;  margin-left: 60px;">
+                Explore
+            </div>
+        </div>
+
+        <div id="forth"><img src="./top-game-05.jpg" alt="" style="border-radius: 50px;">
+            <h5>Action</h5>
+            <h2>Assasin Creed</h2>
+            <div style="background-color: rgb(212, 71, 71); border-radius: 100px;  padding: 5px; display: inline-block;  margin-left: 60px;">
+                Explore
+            </div>
+        </div>
+
+        <div id="forth"><img src="./top-game-06.jpg" alt="" style="border-radius: 50px;">
+            <h5>Action</h5>
+            <h2>Assasin Creed</h2>
+            <div style="background-color: rgb(212, 71, 71); border-radius: 100px;  padding: 5px; display: inline-block;  margin-left: 60px;">
+                Explore
+            </div>
+        </div>
+
+    </div>
+    <br>
+    <br><br>
+
+    <div >
+        <h4 style="display: flex; justify-content: center; color: red;"> CATEGORIES</h4>
+        <h1 style="display: flex; justify-content: center;">Top Categories</h1>
+    </div>
+
+    <div class="section5">
+        <div style="background-color: blue; color: white; text-align: center; padding-top: 20px; border-radius: 50px; margin: 10px;"><b>Action</b> <img src="./categories-01.jpg" alt="" style="border-radius: 50px; margin-top: 20px;"></div>
+        <div style="background-color: blue; color: white; text-align: center; padding-top: 20px; border-radius: 50px; margin: 10px;"><b>Action</b> <img src="./categories-02.jpg" alt="" style="border-radius: 50px; margin-top: 20px;"></div>
+        <div style="background-color: blue; color: white; text-align: center; padding-top: 20px; border-radius: 50px; margin: 10px;"><b>Action</b> <img src="./categories-03.jpg" alt="" style="border-radius: 50px; margin-top: 20px;"></div>
+        <div style="background-color: blue; color: white; text-align: center; padding-top: 20px; border-radius: 50px; margin: 10px;"><b>Action</b> <img src="./categories-04.jpg" alt="" style="border-radius: 50px; margin-top: 20px;"></div>
+        <div style="background-color: blue; color: white; text-align: center; padding-top: 20px; border-radius: 50px; margin: 10px;"><b>Action</b> <img src="./categories-05.jpg" alt="" style="border-radius: 50px; margin-top: 20px;"></div>
+
+
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+    <div>
+        <div class="bgmi"><img src="./cta-bg.jpg" alt="" style="width: 350px; border-radius: 50px;"></div>
+        <div class="shop"><h4 style="color: red;">Our Shop</h4>
+            <h1>Go Pre-Order Buy <br> & Get Best Prices <br>For You!
+
+            </h1><br>
+            <h5>Lorem ipsum dolor consectetur adipiscing, <br> sed do eiusmod tempor incididunt</h5>
+            <br>
+            <h3 style="background-color: rgb(223, 44, 44); padding: 10px; display: inline; border-radius: 50px;">SHOP NOW</h3>
+
+        
+        
+        
+        </div>
+
+        <div class="bucks"><h4 style="color: red;">NEWSLETTER</h4>
+            <h1>Get Up To $100 Off <br> Just Buy Subscribe <br> Newsletter!
+
+            </h1><br>
+
+            <h3 style="background-color: rgb(223, 44, 44); padding: 10px; display: inline; border-radius: 50px;">SUBSCRIBE</h3>
+            
+
+        
+        
+        
+        </div>
+
+
+
+    </div>
+
+    <div class="footer">
+        Copyright © 2048 LUGX Gaming Company. Allghts reserved. Design: TemplateMo
+
+
+    </div>
+
+</body>
+</html>
